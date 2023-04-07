@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+}
+.board {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  width: 320px;
+  height: 320px;
+  background-color: #eee;
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: grid;
+  font-size: 5em;
+  text-align: center;
+}
+
+.clr-btn {
+  margin-top: 2em;
+  margin-left: 12em;
+}
